@@ -1,0 +1,70 @@
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  margin: 0 auto;
+  width: 960px;
+  font-family: "Poppins", sans-serif;
+}
+.container .header-logo {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1a486e;
+}
+.container .header-logo .logo {
+  padding: 15px;
+  height: 200px;
+  width: 300px;
+}
+.container .header-logo .titulo {
+  font-size: medium;
+  color: lightcoral;
+  padding: 70px 30px 0 0;
+  font-size: larger;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 7px;
+}
+.container .consult {
+  display: flex;
+  width: 100%;
+  padding: 10px;
+}
+.container .consult .inFrase {
+  width: 50%;
+}
+.container .consult .inFrase input {
+  width: 100%;
+}
+.container .consult .delete {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+.container .consult .delete input {
+  background-color: white;
+  border: white;
+  color: #133959;
+  font-size: larger;
+}
+.container .table .tables .headtable {
+  background-color: #728baf;
+  color: white;
+}
+.container .table .tables tr {
+  display: flex;
+  justify-content: space-between;
+}
+.container .table .tables tr th,
+.container .table .tables tr td {
+  border: 0px solid;
+}
+
+/*# sourceMappingURL=style.css.map */
